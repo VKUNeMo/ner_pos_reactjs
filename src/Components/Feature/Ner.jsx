@@ -19,7 +19,6 @@ function Ner({ data }) {
                     data.length !== 0 && <>
                         {
                             <div>
-                                <p>
                                     {data.map(function (item, index) {
 
                                         return (
@@ -39,7 +38,6 @@ function Ner({ data }) {
                                             </>
                                         )
                                     })}
-                                </p>
                             </div>
                         }
                     </>

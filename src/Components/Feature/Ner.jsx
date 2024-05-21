@@ -26,10 +26,10 @@ function Ner({ data }) {
                                                 <span
                                                     key={index}
                                                     style={{ backgroundColor: item.color === ' ' ? ' ' : item.color }}
-                                                    className=' rounded p-1 text-sm my-1 inline-block'
+                                                    className=' rounded p-1 text-sm my-1  inline-block'
                                                 >
                                                     {item.word}
-                                                    <span className=" text-gray-600 ml-1">
+                                                    <span className=" text-gray-600 text-sm ml-1">
                                                         {
                                                             item.tag===' ' && item.color===' '?' ':item.tag
                                                         }
